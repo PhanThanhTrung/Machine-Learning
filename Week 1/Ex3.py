@@ -33,9 +33,11 @@ class Path:
 #check
 my_path=Path('/home/phanthanhtrung/course-v3/nbs/dl1/00_notebook_tutorial.ipynb','00_notebook_tutorial.ipynb')
 my_path.Output()
+print(my_path.check())
 my_path.ThemVaoFileJson()
 
 my_path.Input()
+my_path.Output()
 #test khác
 my_path=Path('/home/phanthanhtrung/course-v3/nbs/dl1/floyd_requirements.txt','floyd_requirements.txt')
 my_path.Output()
