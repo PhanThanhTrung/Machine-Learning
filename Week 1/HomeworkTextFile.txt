@@ -1,0 +1,4 @@
+/home/linus/prj_abc/1.jpg
+/Users/lamhoangtung/Desktop/test.py
+~/data/OCR/handwriting/kanji/decomp.png
+/home/phanthanhtrung/course-v3/nbs/dl1/floyd_requirements.txt
