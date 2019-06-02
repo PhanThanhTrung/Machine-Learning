@@ -1,3 +1,4 @@
-Input_str=input() 
+my_str=input() 
 W = int(input())
-List=[Input_str[i:min(i+W,len(Input_str))] for i in range(0,len(Input_str),W)]
+List=[my_str[i:min(i+W,len(my_str))] for i in range(0,len(my_str),W)]
+print(*List,sep='\n')
