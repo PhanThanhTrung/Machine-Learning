@@ -1,2 +1,2 @@
-Input_string = input() 
-print('Yes' if Input_string == Input_string[::-1] else 'No')
+my_str = input() 
+print('Yes' if my_str == my_str[::-1] else 'No')
