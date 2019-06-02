@@ -6,8 +6,8 @@ If the number is multiple of 3 and 5, print out "fizzbuzz".
 '''
 for i in range(1,101):
     if i%3==0:
-        print('fizz', end =" "),
+        print('fizz', end =" ")
     if i%5==0:
-        print('buzz', end = " "),
+        print('buzz', end = " ")
     if i%3!=0 and i % 5!=0:
-        print('{}'.format(i), end = " "),
+        print(i, end = " ")
